@@ -1,0 +1,38 @@
+=========================================
+DockWatch Monitor
+Host      : DESKTOP-B1I71IT
+User      : dell
+Docker    : 29.6.1
+Scan Time : Sat Jul 18 12:38:24 UTC 2026
+=========================================
+
+Container Resource Usage
+-----------------------------------------
+NAME          CPU %     MEM USAGE / LIMIT     NET I/O           BLOCK I/O
+mysql-db      0.95%     378.5MiB / 3.766GiB   1.17kB / 126B     131kB / 265MB
+redis-cache   0.21%     8.07MiB / 3.766GiB    1.29kB / 126B     4.84MB / 0B
+nginx-web     0.00%     7.23MiB / 3.766GiB    3.52kB / 2.83kB   9.17MB / 12.3kB
+nginx-test    0.00%     7.199MiB / 3.766GiB   2.45kB / 126B     16.9MB / 4.1kB
+
+Alerts
+-----------------------------------------
+
+Health Status
+Container            Status          Health         
+------------------------------------------------------------
+mysql-db             🟢 running    N/A            
+redis-cache          🟢 running    N/A            
+nginx-web            🟢 running    N/A            
+nginx-test           🟢 running    N/A            
+
+=========================================
+Summary
+-----------------------------------------
+Running Containers : 4
+Healthy            : 4
+Warnings           : 0
+Critical           : 0
+=========================================
+
+=========================================
+

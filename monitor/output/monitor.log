@@ -1,0 +1,36 @@
+=========================================
+DockWatch Monitor - Sat Jul 18 12:27:53 UTC 2026
+=========================================
+
+Container Resource Usage
+-----------------------------------------
+NAME          CPU %     MEM USAGE / LIMIT     NET I/O           BLOCK I/O
+mysql-db      0.83%     378.6MiB / 3.766GiB   1.17kB / 126B     131kB / 265MB
+redis-cache   0.21%     8.109MiB / 3.766GiB   1.29kB / 126B     4.84MB / 0B
+nginx-web     0.00%     7.23MiB / 3.766GiB    3.52kB / 2.83kB   9.17MB / 12.3kB
+nginx-test    0.00%     7.199MiB / 3.766GiB   2.45kB / 126B     16.9MB / 4.1kB
+
+Alerts
+-----------------------------------------
+
+Health Status
+-----------------------------------------
+🟢 mysql-db
+Status : running
+Health : N/A
+
+🟢 redis-cache
+Status : running
+Health : N/A
+
+🟢 nginx-web
+Status : running
+Health : N/A
+
+🟢 nginx-test
+Status : running
+Health : N/A
+
+
+=========================================
+
