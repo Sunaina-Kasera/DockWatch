@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# ===========================================
+# DockWatch Inventory Module
+# ===========================================
+
+source lib/docker.sh
+source lib/containers.sh
+
+echo "========================================="
+echo "        DockWatch Inventory              "
+echo "========================================="
+echo
+
+check_docker_installed
+check_docker_service
+check_docker_version
