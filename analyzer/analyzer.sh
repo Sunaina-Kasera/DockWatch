@@ -9,6 +9,7 @@ clear
 source lib/images.sh
 source lib/volumes.sh
 source lib/networks.sh
+source lib/recommendations.sh
 {
 echo "========================================="
 echo "       🐳 DockWatch Analyzer             "
@@ -22,6 +23,7 @@ analyze_containers
 analyze_images
 analyze_volumes
 analyze_networks
+generate_recommendations
 
 echo
 echo "========================================="
