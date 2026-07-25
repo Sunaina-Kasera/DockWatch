@@ -1,0 +1,111 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>🔒 Docker Security</h1>
+
+<div class="welcome-card">
+
+    <h2>Docker Security Assessment</h2>
+
+    <p>
+        Analyze Docker containers for security risks including privileged mode,
+        root users, exposed ports and receive security recommendations.
+    </p>
+
+</div>
+
+<!-- ================= Top Cards ================= -->
+
+<div class="cards">
+
+    <div class="card">
+
+        <h3>🛡 Security Score</h3>
+
+        <h1 id="security-score">0</h1>
+
+        <p>Overall Security Status</p>
+
+    </div>
+
+    <div class="card">
+
+        <h3>⚠ Risk Level</h3>
+
+        <h1 id="risk-level">LOW</h1>
+
+        <p>Current Environment Risk</p>
+
+    </div>
+
+</div>
+
+<br>
+
+<!-- ================= Security Checks ================= -->
+
+<div class="card">
+
+    <h3>📋 Security Checks</h3>
+
+    <div id="security-checks"></div>
+
+</div>
+
+<br>
+
+<!-- ================= Recommendations ================= -->
+
+<div class="card">
+
+    <h3>💡 Security Recommendations</h3>
+
+    <div id="security-recommendations"></div>
+
+</div>
+
+<br>
+
+<!-- ================= Suggested Commands ================= -->
+
+<div class="card">
+
+    <h3>💻 Suggested Commands</h3>
+
+    <div id="security-commands"></div>
+
+</div>
+
+<br>
+
+<!-- ================= Security Progress ================= -->
+
+<div class="card">
+
+    <h3>📈 Security Health</h3>
+
+    <div class="progress-wrapper">
+
+        <div class="progress-bar">
+
+            <div
+                id="security-progress"
+                class="progress-fill">
+            </div>
+
+        </div>
+
+        <span id="security-percent">0%</span>
+
+    </div>
+
+</div>
+
+<!-- Hidden Output -->
+
+<pre id="security-output" style="display:none;">{{ output }}</pre>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+{% endblock %}

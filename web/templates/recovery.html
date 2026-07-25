@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>🔄 Docker Recovery</h1>
+
+<div class="welcome-card">
+
+    <h2>Docker Recovery Center</h2>
+
+    <p>
+        View recovery status, suggested recovery actions and Docker recovery commands.
+    </p>
+
+</div>
+
+<!-- ================= TOP CARDS ================= -->
+
+<div class="analyzer-grid">
+
+    <div class="card analyzer-card">
+
+        <h3>🟢 Running Containers</h3>
+
+        <h1 id="running-containers">0</h1>
+
+        <p>Currently Running</p>
+
+    </div>
+
+    <div class="card analyzer-card">
+
+        <h3>🔴 Stopped Containers</h3>
+
+        <h1 id="stopped-containers">0</h1>
+
+        <p>Need Recovery</p>
+
+    </div>
+
+</div>
+
+<!-- ================= RECOVERY STATUS ================= -->
+
+<div class="card">
+
+    <h3>📋 Recovery Status</h3>
+
+    <div id="recovery-status"></div>
+
+</div>
+
+<br>
+
+<!-- ================= ACTIONS ================= -->
+
+<div class="card">
+
+    <h3>⚙ Suggested Recovery Actions</h3>
+
+    <div id="recovery-actions"></div>
+
+</div>
+
+<br>
+
+<!-- ================= COMMANDS ================= -->
+
+<div class="card">
+
+    <h3>💻 Suggested Commands</h3>
+
+    <div id="recovery-commands"></div>
+
+</div>
+
+<pre id="recovery-output" style="display:none;">{{ output }}</pre>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+{% endblock %}

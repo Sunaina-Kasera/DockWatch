@@ -1,0 +1,32 @@
+=========================================
+        🔒 DockWatch Security
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Fri Jul 24 20:22:08 UTC 2026
+
+Security Summary
+-----------------------------------------
+Running Containers : 8
+
+
+Privileged Containers
+-----------------------------------------
+✅ No privileged containers found
+
+Privileged Count : 0
+
+Root User Check
+-----------------------------------------
+
+Root Containers : 0
+
+Exposed Ports
+-----------------------------------------
+
+Exposed Ports Count : 0
+
+=========================================
+ Security Scan Completed
+=========================================

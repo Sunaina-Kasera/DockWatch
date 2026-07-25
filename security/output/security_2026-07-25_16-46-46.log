@@ -1,0 +1,38 @@
+=========================================
+        🔒 DockWatch Security
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Sat Jul 25 16:46:46 UTC 2026
+
+Security Summary
+-----------------------------------------
+Running Containers : 3
+
+
+Privileged Containers
+-----------------------------------------
+✅ No privileged containers found
+
+Privileged Count : 0
+
+Root User Check
+-----------------------------------------
+⚠ alpine-test
+⚠ httpd-server
+⚠ mysql-db
+
+Root Containers : 3
+
+Exposed Ports
+-----------------------------------------
+alpine-test 
+httpd-server 80/tcp
+mysql-db 3306/tcp, 33060/tcp
+
+Exposed Ports Count : 0
+
+=========================================
+ Security Scan Completed
+=========================================

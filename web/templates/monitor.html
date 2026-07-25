@@ -1,0 +1,110 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>📊 Docker Monitor</h1>
+
+<div class="welcome-card">
+    <h2>Live Docker Monitoring</h2>
+    <p>Monitor CPU, Memory, Network, Disk usage and container health in real-time.</p>
+</div>
+
+<!-- ================= Resource Usage ================= -->
+
+<div class="card">
+
+    <h3>📋 Container Resource Usage</h3>
+
+    <div id="resource-table"></div>
+
+</div>
+
+<br>
+
+<!-- ================= Health Status ================= -->
+
+<div class="card">
+
+    <h3>❤️ Container Health Status</h3>
+
+    <div id="health-table"></div>
+
+</div>
+
+<br>
+
+<!-- ================= Summary ================= -->
+
+<div class="card summary-card">
+
+    <h3>📊 Docker Monitoring Summary</h3>
+
+    <div class="summary-wrapper">
+
+        <!-- Donut -->
+
+        <div class="summary-chart">
+
+            <div id="donut-chart" class="donut-chart">
+
+                <div class="donut-center">
+
+                    <h2 id="center-running">0</h2>
+
+                    <span>Running</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="summary-details">
+
+            <div class="summary-row">
+
+                <span>🟢 Running</span>
+
+                <strong id="running-count">0</strong>
+
+            </div>
+
+            <div class="summary-row">
+
+                <span>❤️ Healthy</span>
+
+                <strong id="healthy-count">0</strong>
+
+            </div>
+
+            <div class="summary-row">
+
+                <span>🟡 Warning</span>
+
+                <strong id="warning-count">0</strong>
+
+            </div>
+
+            <div class="summary-row">
+
+                <span>🔴 Critical</span>
+
+                <strong id="critical-count">0</strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Hidden Output -->
+
+<pre id="monitor-output" style="display:none;">{{ output }}</pre>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+{% endblock %}

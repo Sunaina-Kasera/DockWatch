@@ -1,15 +1,16 @@
 #!/bin/bash
 
-source lib/containers.sh
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+source "$SCRIPT_DIR/lib/containers.sh"
+source "$SCRIPT_DIR/lib/images.sh"
+source "$SCRIPT_DIR/lib/volumes.sh"
+source "$SCRIPT_DIR/lib/networks.sh"
+source "$SCRIPT_DIR/lib/recommendations.sh"
 
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
-LOG_FILE="output/analyzer_$TIMESTAMP.log"
+LOG_FILE="$SCRIPT_DIR/output/analyzer_$TIMESTAMP.log"
 
-clear
-source lib/images.sh
-source lib/volumes.sh
-source lib/networks.sh
-source lib/recommendations.sh
 {
 echo "========================================="
 echo "       🐳 DockWatch Analyzer             "

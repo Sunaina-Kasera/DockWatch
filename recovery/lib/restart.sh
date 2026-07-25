@@ -3,28 +3,33 @@
 recover_containers() {
 
     echo
-    echo "Recovery Actions"
+    echo "Recovery Status"
     echo "-----------------------------------------"
 
-    recovered=0
-    failed=0
+    stopped=$(docker ps -aq -f status=exited | wc -l)
+    running=$(docker ps -q | wc -l)
 
-    for container in $(docker ps -aq -f status=exited)
-    do
-        name=$(docker inspect --format='{{.Name}}' "$container" | cut -c2-)
-
-        if docker start "$container" >/dev/null 2>&1; then
-            echo "🔄 Starting $name ... ✅ Success"
-            ((recovered++))
-        else
-            echo "🔄 Starting $name ... ❌ Failed"
-            ((failed++))
-        fi
-    done
+    echo "Running Containers : $running"
+    echo "Stopped Containers : $stopped"
 
     echo
-    echo "Summary"
+    echo "Suggested Recovery"
     echo "-----------------------------------------"
-    echo "Recovered : $recovered"
-    echo "Failed    : $failed"
+
+    if [ "$stopped" -gt 0 ]; then
+        echo "🔄 Restart stopped containers"
+        echo "🧹 Remove stopped containers"
+    else
+        echo "✅ No stopped containers found"
+    fi
+
+    echo
+    echo "Suggested Commands"
+    echo "-----------------------------------------"
+
+    echo "docker start <container>"
+    echo "docker restart <container>"
+    echo "docker rm \$(docker ps -aq -f status=exited)"
+    echo "docker system prune -f"
+
 }

@@ -1,0 +1,93 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Dashboard</h1>
+
+<div class="welcome-card">
+
+<h2>Welcome to DockWatch 🚀</h2>
+
+<p>
+DockWatch helps monitor Docker containers, images, networks,
+volumes, recovery operations and security checks from one dashboard.
+</p>
+
+</div>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>🐳 Docker</h3>
+        <h2>Running</h2>
+        <p>Engine Status</p>
+    </div>
+
+    <div class="card">
+        <h3>📦 Containers</h3>
+        <h2 id="container-count">--</h2>
+        <p>Total Containers</p>
+    </div>
+
+    <div class="card">
+        <h3>🖼 Images</h3>
+        <h2 id="image-count">--</h2>
+        <p>Docker Images</p>
+    </div>
+
+    <div class="card">
+        <h3>🌐 Networks</h3>
+        <h2 id="network-count">--</h2>
+        <p>Available Networks</p>
+    </div>
+
+</div>
+
+
+
+
+<!-- <h1>Dashboard</h1>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>🐳 Docker</h3>
+        <h2>Running</h2>
+        <p>Engine Status</p>
+    </div>
+
+    <div class="card">
+        <h3>📦 Containers</h3>
+        <h2 id="container-count">--</h2>
+        <p>Total Containers</p>
+    </div>
+
+    <div class="card">
+        <h3>🖼 Images</h3>
+        <h2 id="image-count">--</h2>
+        <p>Docker Images</p>
+    </div>
+
+    <div class="card">
+        <h3>🌐 Networks</h3>
+        <h2 id="network-count">--</h2>
+        <p>Available Networks</p>
+    </div>
+
+</div>
+
+<br><br>
+
+<div class="card">
+
+<h3>Welcome to DockWatch 🚀</h3>
+
+<p>
+DockWatch helps monitor Docker containers, images, networks,
+volumes, recovery operations and security checks from one dashboard.
+</p> -->
+
+<!-- </div> -->
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+{% endblock %}

@@ -1,0 +1,32 @@
+=========================================
+        🔒 DockWatch Security
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Sun Jul 19 12:43:50 UTC 2026
+
+Privileged Containers
+-----------------------------------------
+✅ No privileged containers found
+
+Root User Check
+-----------------------------------------
+⚠ alpine-test is running as root
+⚠ httpd-server is running as root
+⚠ mysql-db is running as root
+⚠ redis-cache is running as root
+⚠ nginx-web is running as root
+⚠ nginx-test is running as root
+
+Exposed Ports
+-----------------------------------------
+NAMES          PORTS
+alpine-test    
+httpd-server   80/tcp
+mysql-db       3306/tcp, 33060/tcp
+redis-cache    6379/tcp
+nginx-web      0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
+nginx-test     80/tcp
+
+=========================================

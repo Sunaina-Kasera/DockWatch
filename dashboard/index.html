@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DockWatch Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6d8e9c5d5b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>🐳 DockWatch</h2>
+            <p>Docker Monitoring Platform</p>
+        </div>
+
+        <nav>
+
+            <a href="#" class="active">
+                <i class="fas fa-chart-pie"></i>
+                Dashboard
+            </a>
+
+            <a href="#">
+                <i class="fas fa-box"></i>
+                Inventory
+            </a>
+
+            <a href="#">
+                <i class="fas fa-chart-line"></i>
+                Monitor
+            </a>
+
+            <a href="#">
+                <i class="fas fa-magnifying-glass"></i>
+                Analyzer
+            </a>
+
+            <a href="#">
+                <i class="fas fa-rotate"></i>
+                Recovery
+            </a>
+
+            <a href="#">
+                <i class="fas fa-shield-halved"></i>
+                Security
+            </a>
+
+        </nav>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main class="main">
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>Welcome, Sunaina 👋</h1>
+
+                <p>Real-Time Docker Monitoring Dashboard</p>
+
+            </div>
+
+            <div class="profile">
+
+                <i class="fas fa-bell"></i>
+
+                <i class="fas fa-gear"></i>
+
+                <img src="https://i.pravatar.cc/45" alt="profile">
+
+            </div>
+
+        </header>
+
+        <!-- Cards -->
+
+        <section class="cards">
+
+            <div class="card">
+                <h4>🟢 Running Containers</h4>
+                <h2>6</h2>
+                <span>+2 from last scan</span>
+            </div>
+
+            <div class="card">
+                <h4>Stopped</h4>
+                <h2>2</h2>
+            </div>
+
+            <div class="card">
+                <h4>Images</h4>
+                <h2>6</h2>
+            </div>
+
+            <div class="card">
+                <h4>Volumes</h4>
+                <h2>4</h2>
+            </div>
+
+        </section>
+
+        <!-- Bottom -->
+
+        <section class="bottom">
+
+            <div class="table-card">
+
+                <h3>Container Status</h3>
+
+                <table>
+
+                    <tr>
+
+                        <th>Name</th>
+
+                        <th>Status</th>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>nginx-web</td>
+
+                        <td><span class="running">🟢 Running</span></td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>mysql-db</td>
+
+                        <td><span class="running">🟢 Running</span></td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>redis-cache</td>
+
+                        <td><span class="running">🟢 Running</span></td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+            <div class="security">
+
+                <h3>🛡 Security Overview</h3>
+
+            <p>⚠ Root Containers <strong>6</strong></p>
+
+            <p>✅ Privileged Containers <strong>0</strong></p>
+
+            <p>🌐 Exposed Ports <strong>5</strong></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>

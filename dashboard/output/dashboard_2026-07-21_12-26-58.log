@@ -1,0 +1,973 @@
+=========================================
+        🚀 DockWatch Dashboard
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Tue Jul 21 12:26:58 UTC 2026
+
+Running Inventory...
+=========================================
+       🐳 DockWatch Inventory
+=========================================
+
+[32m[✔] Docker Installed[0m
+[31m[✘] Docker Engine Not Running[0m
+[34m[ℹ] 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/[0m
+
+Containers
+-----------------------------------------
+Running : 8
+Stopped : 8
+Total   : 8
+
+Images
+-----------------------------------------
+Total Images : 5
+Dangling     : 8
+
+Networks
+-----------------------------------------
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+Volumes
+-----------------------------------------
+Total Volumes : 8
+
+=========================================
+ Inventory Scan Completed 
+=========================================
+
+Running Monitor...
+=========================================
+DockWatch Monitor
+Host      : DESKTOP-B1I71IT
+User      : dell
+Docker    : 
+'docker'
+to
+
+about
+
+https://docs.docker.com/go/wsl2/
+Scan Time : Tue Jul 21 12:26:59 UTC 2026
+=========================================
+
+Container Resource Usage
+-----------------------------------------
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+Alerts
+-----------------------------------------
+
+Health Status
+Container            Status          Health         
+------------------------------------------------------------
+                     🔴 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/ 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+The command 'docker' could not be found in this WSL 2 distro. 🔴 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/ 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+We recommend to activate the WSL integration in Docker Desktop settings. 🔴 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/ 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+                     🔴 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/ 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+For details about using Docker Desktop with WSL 2, visit: 🔴 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/ 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+                     🔴 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/ 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+https://docs.docker.com/go/wsl2/ 🔴 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/ 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+                     🔴 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/ 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+=========================================
+Summary
+-----------------------------------------
+Running Containers : 8
+Healthy            : 8
+Warnings           : 0
+Critical           : 0
+=========================================
+
+=========================================
+
+📄 Log saved to output/monitor_2026-07-21_12-26-59.log
+
+Running Analyzer...
+=========================================
+       🐳 DockWatch Analyzer             
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Tue Jul 21 12:27:00 UTC 2026
+
+Container Analysis
+-----------------------------------------
+Running Containers : 8
+Stopped Containers : 8
+Total Containers   : 8
+
+Image Analysis
+-----------------------------------------
+Total Images    : 5
+Unused Images   : 3
+Dangling Images : 8
+
+Volume Analysis
+-----------------------------------------
+Total Volumes  : 8
+Unused Volumes : 8
+
+Network Analysis
+-----------------------------------------
+Total Networks  : 8
+Custom Networks : 8
+
+=========================================
+
+📄 Report saved : output/analyzer_2026-07-21_12-27-00.log
+
+Running Recovery...
+=========================================
+       🐳 DockWatch Recovery
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Tue Jul 21 12:27:02 UTC 2026
+
+Recovery Actions
+-----------------------------------------
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+🔄 Starting 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ ... ❌ Failed
+
+Summary
+-----------------------------------------
+Recovered : 0
+Failed    : 34
+
+=========================================
+
+📄 Report saved : output/recovery_2026-07-21_12-27-02.log
+
+Running Security...
+=========================================
+        🔒 DockWatch Security
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Tue Jul 21 12:27:08 UTC 2026
+
+Privileged Containers
+-----------------------------------------
+✅ No privileged containers found
+
+Root User Check
+-----------------------------------------
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+✅ 
+he command 'docker' could not be found in this WSL 2 distro.
+e recommend to activate the WSL integration in Docker Desktop settings.
+
+or details about using Docker Desktop with WSL 2, visit:
+
+ttps://docs.docker.com/go/wsl2/ is running as 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+Exposed Ports
+-----------------------------------------
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+
+=========================================
+
+📄 Report saved : output/security_2026-07-21_12-27-08.log
+
+=========================================
+✅ DockWatch Scan Completed Successfully
+=========================================

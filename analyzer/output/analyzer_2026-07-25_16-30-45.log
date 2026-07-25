@@ -1,0 +1,36 @@
+=========================================
+       🐳 DockWatch Analyzer             
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Sat Jul 25 16:30:45 UTC 2026
+
+Container Analysis
+-----------------------------------------
+Running Containers : 0
+Stopped Containers : 6
+Total Containers   : 6
+
+Image Analysis
+-----------------------------------------
+Total Images    : 6
+Unused Images   : 5
+Dangling Images : 0
+
+Volume Analysis
+-----------------------------------------
+Total Volumes  : 4
+Unused Volumes : 3
+
+Network Analysis
+-----------------------------------------
+Total Networks  : 4
+Custom Networks : 1
+
+Recommendations
+-----------------------------------------
+💾 Remove 3 unused volumes
+📦 Remove 6 stopped containers
+
+=========================================

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DockWatch</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<h2>🐳 DockWatch</h2>
+
+<a href="/" class="{% if request.path == '/' %}active{% endif %}">
+    <i class="fa-solid fa-house"></i> Dashboard
+</a>
+
+<a href="/inventory" class="{% if request.path == '/inventory' %}active{% endif %}">
+    <i class="fa-solid fa-box"></i> Inventory
+</a>
+
+<a href="/monitor" class="{% if request.path == '/monitor' %}active{% endif %}">
+    <i class="fa-solid fa-chart-line"></i> Monitor
+</a>
+
+<a href="/analyzer" class="{% if request.path == '/analyzer' %}active{% endif %}">
+    <i class="fa-solid fa-magnifying-glass-chart"></i> Analyzer
+</a>
+
+<a href="/recovery" class="{% if request.path == '/recovery' %}active{% endif %}">
+    <i class="fa-solid fa-rotate"></i> Recovery
+</a>
+
+<a href="/security" class="{% if request.path == '/security' %}active{% endif %}">
+    <i class="fa-solid fa-shield-halved"></i> Security
+</a>
+
+</div>
+
+<!-- Main Content -->
+
+<div class="content">
+
+{% if request.path == '/' %}
+
+<div class="topbar">
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input type="text" placeholder="Search...">
+
+    </div>
+
+    <div class="right">
+
+        <i class="fa-regular fa-bell"></i>
+
+        <div class="profile">
+
+            <img src="https://i.pravatar.cc/45" alt="user">
+
+            <div>
+
+                <h4>Dell</h4>
+
+                <small>Administrator</small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endif %}
+
+{% block content %}
+
+{% endblock %}
+
+</div>
+
+</body>
+
+</html>

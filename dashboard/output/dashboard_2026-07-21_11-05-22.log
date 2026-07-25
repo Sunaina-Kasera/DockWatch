@@ -1,0 +1,185 @@
+=========================================
+        🚀 DockWatch Dashboard
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Tue Jul 21 11:05:22 UTC 2026
+
+Running Inventory...
+=========================================
+       🐳 DockWatch Inventory
+=========================================
+
+[32m[✔] Docker Installed[0m
+[32m[✔] Docker Engine Running[0m
+[34m[ℹ] Docker version 29.6.1, build 8900f1d[0m
+
+Containers
+-----------------------------------------
+Running : 6
+Stopped : 2
+Total   : 8
+
+Images
+-----------------------------------------
+Total Images : 6
+Dangling     : 0
+
+Networks
+-----------------------------------------
+• bridge
+• dockwatch-net
+• host
+• none
+
+Volumes
+-----------------------------------------
+Total Volumes : 4
+
+=========================================
+ Inventory Scan Completed 
+=========================================
+
+Running Monitor...
+=========================================
+DockWatch Monitor
+Host      : DESKTOP-B1I71IT
+User      : dell
+Docker    : 29.6.1
+Scan Time : Tue Jul 21 11:05:31 UTC 2026
+=========================================
+
+Container Resource Usage
+-----------------------------------------
+NAME           CPU %     MEM USAGE / LIMIT     NET I/O         BLOCK I/O
+alpine-test    0.00%     452KiB / 3.766GiB     2.41kB / 126B   1.51MB / 0B
+httpd-server   0.02%     9.5MiB / 3.766GiB     2.11kB / 126B   8.86MB / 4.1kB
+mysql-db       1.30%     379.5MiB / 3.766GiB   1.94kB / 126B   142MB / 17.8MB
+redis-cache    0.35%     11.54MiB / 3.766GiB   1.81kB / 126B   51.6MB / 0B
+nginx-web      0.00%     4.93MiB / 3.766GiB    1.17kB / 126B   2.97MB / 4.1kB
+nginx-test     0.00%     4.754MiB / 3.766GiB   1.04kB / 126B   475kB / 4.1kB
+
+Alerts
+-----------------------------------------
+
+Health Status
+Container            Status          Health         
+------------------------------------------------------------
+alpine-test          🟢 running    N/A            
+httpd-server         🟢 running    N/A            
+mysql-db             🟢 running    N/A            
+redis-cache          🟢 running    N/A            
+nginx-web            🟢 running    N/A            
+nginx-test           🟢 running    N/A            
+
+=========================================
+Summary
+-----------------------------------------
+Running Containers : 6
+Healthy            : 6
+Warnings           : 0
+Critical           : 0
+=========================================
+
+=========================================
+
+📄 Log saved to output/monitor_2026-07-21_11-05-31.log
+
+Running Analyzer...
+=========================================
+       🐳 DockWatch Analyzer             
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Tue Jul 21 11:05:36 UTC 2026
+
+Container Analysis
+-----------------------------------------
+Running Containers : 6
+Stopped Containers : 2
+Total Containers   : 8
+
+Image Analysis
+-----------------------------------------
+Total Images    : 6
+Unused Images   : 5
+Dangling Images : 0
+
+Volume Analysis
+-----------------------------------------
+Total Volumes  : 4
+Unused Volumes : 3
+
+Network Analysis
+-----------------------------------------
+Total Networks  : 4
+Custom Networks : 1
+
+=========================================
+
+📄 Report saved : output/analyzer_2026-07-21_11-05-36.log
+
+Running Recovery...
+=========================================
+       🐳 DockWatch Recovery
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Tue Jul 21 11:05:37 UTC 2026
+
+Recovery Actions
+-----------------------------------------
+🔄 Starting competent_bhabha ... ✅ Success
+🔄 Starting happy_tharp ... ✅ Success
+
+Summary
+-----------------------------------------
+Recovered : 2
+Failed    : 0
+
+=========================================
+
+📄 Report saved : output/recovery_2026-07-21_11-05-37.log
+
+Running Security...
+=========================================
+        🔒 DockWatch Security
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Tue Jul 21 11:05:41 UTC 2026
+
+Privileged Containers
+-----------------------------------------
+✅ No privileged containers found
+
+Root User Check
+-----------------------------------------
+⚠ alpine-test is running as root
+⚠ httpd-server is running as root
+⚠ mysql-db is running as root
+⚠ redis-cache is running as root
+⚠ nginx-web is running as root
+⚠ nginx-test is running as root
+
+Exposed Ports
+-----------------------------------------
+NAMES          PORTS
+alpine-test    
+httpd-server   80/tcp
+mysql-db       3306/tcp, 33060/tcp
+redis-cache    6379/tcp
+nginx-web      0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
+nginx-test     80/tcp
+
+=========================================
+
+📄 Report saved : output/security_2026-07-21_11-05-41.log
+
+=========================================
+✅ DockWatch Scan Completed Successfully
+=========================================

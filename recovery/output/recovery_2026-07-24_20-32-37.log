@@ -1,0 +1,34 @@
+=========================================
+       🐳 DockWatch Recovery
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Scan Time : Fri Jul 24 20:32:37 UTC 2026
+
+Recovery Status
+-----------------------------------------
+Unused Images      : 0
+Unused Volumes     : 3
+Running Containers : 6
+Stopped Containers : 0
+
+Recovery Status
+-----------------------------------------
+Running Containers : 6
+Stopped Containers : 0
+
+Suggested Recovery
+-----------------------------------------
+✅ No stopped containers found
+
+Suggested Commands
+-----------------------------------------
+docker start <container>
+docker restart <container>
+docker rm $(docker ps -aq -f status=exited)
+docker system prune -f
+
+=========================================
+ Recovery Scan Completed 
+=========================================

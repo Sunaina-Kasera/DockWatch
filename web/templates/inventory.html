@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>📦 Docker Inventory</h1>
+
+<div class="welcome-card">
+    <h2>Docker Resource Overview</h2>
+    <p>View live information about Docker Engine, Containers, Images, Networks and Volumes.</p>
+</div>
+
+<div class="grid">
+
+    <div class="card">
+        <h3>🐳 Docker Status</h3>
+        <div id="docker-status"></div>
+    </div>
+
+    <div class="card">
+        <h3>⚙ Docker Version</h3>
+        <div id="docker-version"></div>
+    </div>
+
+</div>
+
+<div class="card" style="margin-top:30px;">
+
+    <h3>📦 Containers</h3>
+
+    <div id="containers"></div>
+
+</div>
+
+<div class="grid" style="margin-top:30px;">
+
+    <div class="card">
+        <h3>🖼 Images</h3>
+        <div id="images"></div>
+    </div>
+
+    <div class="card">
+        <h3>💾 Volumes</h3>
+        <div id="volumes"></div>
+    </div>
+
+</div>
+
+<div class="card" style="margin-top:30px;">
+
+    <h3>🌐 Networks</h3>
+
+    <div id="networks"></div>
+
+</div>
+
+<pre id="bash-output" style="display:none;">{{ output }}</pre>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+{% endblock %}

@@ -1,12 +1,12 @@
 #!/bin/bash
 
-source lib/docker.sh
-source lib/containers.sh
-source lib/images.sh
-source lib/networks.sh
-source lib/volumes.sh
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-clear
+source "$SCRIPT_DIR/lib/docker.sh"
+source "$SCRIPT_DIR/lib/containers.sh"
+source "$SCRIPT_DIR/lib/images.sh"
+source "$SCRIPT_DIR/lib/networks.sh"
+source "$SCRIPT_DIR/lib/volumes.sh"
 
 echo "========================================="
 echo "       🐳 DockWatch Inventory"
@@ -23,5 +23,5 @@ get_volume_info
 
 echo
 echo "========================================="
-echo " Inventory Scan Completed "
+echo " Inventory Scan Completed"
 echo "========================================="

@@ -1,0 +1,39 @@
+=========================================
+        📊 DockWatch Monitor
+=========================================
+
+Host      : DESKTOP-B1I71IT
+User      : dell
+Docker    : 29.6.1
+Scan Time : Sat Jul 25 16:46:25 UTC 2026
+
+
+Container Resource Usage
+-----------------------------------------
+NAME           CPU %     MEM USAGE / LIMIT     NET I/O         BLOCK I/O
+alpine-test    0.00%     556KiB / 3.766GiB     1.95kB / 126B   1.51MB / 0B
+httpd-server   0.01%     9.062MiB / 3.766GiB   1.78kB / 126B   8.87MB / 4.1kB
+mysql-db       1.85%     386.6MiB / 3.766GiB   1.74kB / 126B   131MB / 15MB
+
+Alerts
+-----------------------------------------
+
+Health Status
+Container            Status          Health         
+------------------------------------------------------------
+alpine-test          🟢 running    N/A            
+httpd-server         🟢 running    N/A            
+mysql-db             🟢 running    N/A            
+
+=========================================
+Summary
+-----------------------------------------
+Running Containers : 3
+Healthy            : 3
+Warnings           : 0
+Critical           : 0
+=========================================
+
+=========================================
+ Monitor Scan Completed
+=========================================
