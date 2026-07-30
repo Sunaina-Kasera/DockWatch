@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Log files
+*.log
+
+# Generated output logs
+**/output/*.log
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db

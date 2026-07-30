@@ -117,8 +117,7 @@ body{
 
 }
 
-.card{
-
+   .card{
     background:#161d29;
     border:1px solid #2f3a4a;
     border-radius:22px;
@@ -676,9 +675,39 @@ grid-template-columns:1fr 1fr;
 
 gap:25px;
 
-margin-top:25px;
-
 align-items:start;
+
+}
+
+.analysis-grid .card{
+
+    display:flex;
+    flex-direction:column;
+
+    padding:25px;
+
+    min-height:520px;
+
+}
+
+#resource-analysis{
+
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+
+}
+
+#recommendations{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    max-height:420px;
+
+    padding-right:6px;
 
 }
 
@@ -836,15 +865,9 @@ color:#ddd;
 
 }
 
-/* ---------- Cards ---------- */
-
-.card{
+.analyzer-container .card{
 
 width:100%;
-
-max-width:none;
-
-margin:0;
 
 }
 
