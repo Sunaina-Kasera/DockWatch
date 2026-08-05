@@ -1,46 +1,155 @@
-# DockWatch
-Turning "Docker chaos" into "Docker control."
+# 🐳 DockWatch
+
+> **Docker Infrastructure Monitoring, Security & Recovery Dashboard**
+
 ![DockWatch Architecture](image.png)
 
-DockWatch is my open-source project aimed at fixing the headache of managing Docker environments. Instead of manually running docker ps or docker stats a hundred times a day, DockWatch acts as a sidekick that monitors your containers, spots security holes, and can even handle basic self-healing.
+DockWatch is an open-source DevOps project that helps monitor, analyze, secure, and recover Docker environments from a single dashboard. It automates routine Docker administration tasks by providing resource analysis, health monitoring, security auditing, and recovery suggestions.
 
-I’m building this to solve the "DevOps struggle": when you have enough containers running that you can’t possibly keep track of them all manually.
+# ✨ Features
 
-# The "Why"
-If you’ve ever dealt with a container stuck in a restart loop, or realized too late that your disk is full, you know the pain. DockWatch handles the heavy lifting of:
+## 📦 Inventory
+- Scan Docker containers
+- List Docker images
+- List Docker volumes
+- List Docker networks
+- View Docker environment summary
 
-Proactive Alerts: Stop guessing if your containers are actually healthy.
-Security Guardrails: Catch things like running as root or exposed ports before they become issues.
-Operational Sanity: From resource spikes to cleanup, I’m building this to take the manual labor out of Docker maintenance.
+## 📊 Monitoring
+- Container CPU usage
+- Memory usage
+- Disk usage
+- Running container statistics
+- Live Docker resource monitoring
 
-# My Vision
-I want to build a tool that doesn't just show you data, but gives you insights.
-Monitor: See exactly what’s happening in your infrastructure.
-Analyze: Detect issues before they crash your app.
-Recover: Let the system restart those "troublemaker" containers for you.
+## 📈 Analyzer
+- Docker health score
+- Risk level detection
+- Resource analysis
+- Optimization recommendations
+- Unused Docker objects detection
 
-# What’s in the box? 
-Inventory: A clean view of your containers, volumes, and networks.
-Monitoring: Tracking CPU, RAM, and Disk usage in real-time.
-Health Checks: Automatically flagging restart loops and zombie containers.
-Security: Scanning for "gotchas" like privileged modes or missing best practices.
-Self-Healing: The ability to auto-restart unhealthy containers and clean up junk files.
-Backups: Simple, automated ways to back up your volumes and configs.
-Notifications: Get the ping on Slack, Discord, or Telegram the moment something goes sideways.
+## 🔒 Security
+- Detect privileged containers
+- Detect root user containers
+- Detect exposed ports
+- Docker security summary
 
+## 🔄 Recovery
+- Detect stopped containers
+- Restart failed containers
+- Recovery report generation
+- Suggested recovery commands
 
-# How I’m Building It
-I’m a firm believer in learning by doing. The stack is currently focused on getting things running reliably on Linux:
-Core: Bash & Python
-OS: Ubuntu
-Environment: Docker (obviously!)
-Automation: GitHub Actions 
+## 🌐 Web Dashboard
+- Flask-based dashboard
+- Responsive UI
+- Live module integration
+- Modern dark theme
+- Interactive cards and statistics
 
-# 👩‍💻 About Me
-I'm Sunaina Kasera, an aspiring DevOps engineer. I created DockWatch to bridge the gap between theory and the "real-world" challenges I'm encountering while studying Linux, Docker, and Cloud infrastructure.
+---
 
-A few tips on why this "human" version works better:
-Removed "Corporate Speak": Words like "infrastructure management platform" or "centralized operational insights" were replaced with "fixing the headache" or "taking the manual labor out."
+# 🏗 Project Structure
 
-Added Personality: Using phrases like "troublemaker containers" or "the DevOps struggle" helps the reader connect with you, the creator.
-Action-Oriented: Instead of just listing features, I framed them as things that help the user.
+```text
+DockWatch/
+│
+├── analyzer/
+├── dashboard/
+├── docs/
+├── inventory/
+├── monitor/
+├── recovery/
+├── security/
+├── web/
+│
+├── README.md
+└── image.png
+```
+---
+# ⚙ Tech Stack
+
+|--------------------------------------|
+| Technology | Usage                   |
+|------------|-------------------------|
+| Python     | Backend                 |
+| Flask      | Web Dashboard           |
+| Bash       | Docker Automation       |
+| HTML       | Frontend                |
+| CSS        | Styling                 |
+| JavaScript | Dashboard Logic         |
+| Docker     | Container Platform      |
+| Ubuntu     | Development Environment |
+| Git        | Version Control         |
+| GitHub     | Repository Hosting      |
+|--------------------------------------|
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Sunaina-Kasera/DockWatch.git
+```
+Move inside project
+
+```bash
+cd DockWatch
+```
+Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
+Run Dashboard
+
+```bash
+python app.py
+```
+Open browser
+
+```
+http://127.0.0.1:5000
+```
+---
+
+# 📋 Modules
+
+|  Module   |      Description         |
+|-----------|--------------------------|
+| Inventory | Docker inventory scanner |
+| Monitor   | Resource monitoring      |
+| Analyzer  | Docker health analysis   |
+| Security  | Docker security auditing |
+| Recovery  | Container recovery       |
+| Dashboard | Flask web interface      |
+
+---
+
+# 🎯 Future Enhancements
+
+- AWS Deployment
+- Kubernetes Support
+- Prometheus Integration
+- Grafana Dashboard
+- Email Notifications
+- Slack Notifications
+- Discord Alerts
+- Telegram Alerts
+- Docker Swarm Support
+
+---
+
+# 👩‍💻 Author
+
+**Sunaina Kasera**
+
+Aspiring DevOps Engineer passionate about Linux, Docker, Cloud and Automation.
+
+GitHub:
+https://github.com/Sunaina-Kasera
+
+---
